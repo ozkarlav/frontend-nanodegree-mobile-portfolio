@@ -127,6 +127,8 @@ function updatePositions() {
 
 Saving the collection of .randomPizzaContainer to a randomPizza variable before the loop. 
 Then in the for-loop I'm batching the style changes and by doing this I'm avoiding Stoping Forced Synchronous Layout as well.
+Got to this solution after going through the Browser Rendering Optimization. Thank you
+
 
   ```bash
   function changePizzaSizes(size) {
